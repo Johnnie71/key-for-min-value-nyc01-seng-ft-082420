@@ -23,10 +23,8 @@ def key_for_min_value(name_hash)
     if min_value > value
       min_value = value
       name_value = key
-    elsif
-     return nil
     end
-    
+    return nil
   end
   name_value
 end
